@@ -1,0 +1,21 @@
+{
+    "type":"MCU",
+    "name":"STM32G031",
+    "package":["SO8N","TSSOP20","LQFP48","LQFP32"],
+    "version":"1.0.0",
+    "LQFP48": {
+        "name":"STM32G031C",
+        "peripheral": ["ADC","TIM","UART1","UART2","I2C","SPI","PWM"],
+        "GPIO":18
+    },
+    "LQFP32": {
+        "name":"STM32G031K",
+        "peripheral": ["ADC","TIM","UART1","UART2","I2C","SPI","PWM"],
+        "GPIO":18
+    },
+    "SO8N": {
+        "name":"STM32G031G",
+        "peripheral": ["ADC","TIM","UART1","UART2","I2C","SPI","PWM"],
+        "GPIO":6
+    }
+}
